@@ -1,0 +1,481 @@
+body{
+    background-color: rgb(221, 221, 69);
+}
+
+
+.carousel-item active img {
+    width: 60px;
+    height: 150px;
+  }
+  .nav{
+      background-color: rgb(221, 221, 69);
+      color: rgb(7, 4, 4);
+      font-weight: bold;
+      font-style: italic;
+  }
+  
+ 
+
+ 
+    .logo{
+      float:left;
+      margin-right: 400px;
+      margin-left: 100px;
+      font-size: 50px;
+      margin-top: 10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: 800;
+      text-shadow: 1px  3px grey;
+      
+    }
+    h1{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 38px;
+    }
+    
+     ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+      margin-top: 15px;
+      margin-left: 100px;
+    }
+    
+     li {
+      float: left;
+     
+      
+    }
+
+     li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+    
+    li a:hover {
+      background-color:gray;
+      opacity: 0.5;
+      color: black;
+      border-radius: 20px;
+      
+    }
+  .introduction{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .heading{
+    font-weight: 400;
+    font-size: 100px;
+    margin-top: 100px;
+    
+  }
+  .content{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .icons{
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 370px;
+    display:flex;
+    margin-right: 350px;
+  
+  }
+  .iconheading{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 360px;
+    display:flex;
+    margin-right: 380px;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  .iconcontent{
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 320px;
+    display:flex;
+    margin-right: 350px;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+    .iconbutton{
+      margin-bottom: 10px;
+    text-align: center;
+    margin-left: 350px;
+    display:flex;
+    margin-right: 350px;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .iconbutton button{
+    background-color: lightseagreen; 
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 2px ;
+    cursor: pointer;
+    }
+    .iconbutton button:hover{
+      background-color:lightblue;
+
+    }
+    hr{
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .carousel-item img{
+        height: 100px;
+        width: 140px;
+      
+
+    }
+
+    .project{
+      display: flex;
+      margin-left: 200px;
+    }
+
+    .card {
+      border-left: 0px;
+      border-right: 0px;
+      max-width: 315px;
+      margin: 0px;
+      text-align: center;
+      font-family: arial;
+      margin-top: 50px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      padding: 10px;
+      
+    }
+    .card:hover{
+      background-color: rgb(255, 239, 214);
+    }
+
+    
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: black;
+      background-color: rgb(233, 182, 182);
+      text-align: center;
+      cursor: pointer;
+      width: 50%;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .card button:hover {
+      opacity: 0.7;
+    }
+    .pricetable{
+      display: flex;
+      margin-left: 270px;
+      text-align: center;
+    }
+
+    .columns {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+      transition: 0.3s;
+      width: 25%;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-top: 50px;
+      margin-bottom: 70px;
+    }
+    .columns .header{
+      font-size: 18px;
+      text-align: center;
+    }
+    .columns .grey{
+      color: grey;
+      padding: 5px;
+      font-size:18px ;
+      text-align: center;
+      
+    }
+    .columns .li{
+      text-align: center;
+    }
+    
+    .columns:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .columns .button{
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: black;
+      background-color: palegoldenrod;
+      text-align: center;
+      cursor: pointer;
+      width: 50%;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .columns .button:hover {
+      opacity: 0.7;
+    }
+
+    
+    .team {
+      display: flex;
+      margin-left: 650px;
+      margin-top: 70px;
+    }
+    .team img{
+      height: 200px;
+      width: 320px;
+      
+      margin-left: 20px;
+      
+      margin-bottom: 15px;
+    }
+     .team img:hover{
+      opacity: 0.6;
+    }
+
+
+    .life{
+      background-color:rgb(214, 212, 174);
+      margin-top: 100px;
+      
+    }
+    .life .heading{
+      padding: 70px;
+     
+    }
+
+
+
+    .column {
+      float: left;
+      width: 15%;
+      
+    }
+    
+   
+    .column img {
+      opacity: 0.8; 
+      cursor: pointer; 
+      margin-left: 10px;
+      padding-top:20px;
+      margin-bottom: 100px;
+      
+    }
+    
+    .column img:hover {
+      opacity: 1;
+    }
+
+    .row{
+      display: flex;
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+    
+    .container {
+      position: relative;
+      display: none;
+    }
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 300px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+
+
+    .signup{
+      background-image: url("images/signup.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+    }
+    .signup .heading{
+      color:white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-left: 100px;
+    }
+
+    .form{
+      padding-bottom: 200px;
+      margin-left: 150px;
+    }
+  
+    
+    
+    
+    input[type=text]  {
+      width: 20%;
+      padding: 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    input[type=submit]{
+      background-color: goldenrod;
+      width:10%;
+      padding: 12px;
+      margin: 8px 0;
+    }
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+
+
+    .officeimages{
+      padding-top: 70px;
+      display: flex;
+      margin-left: 200px;
+      
+    }
+    .officeimages img{
+      padding-left: 40px;
+    }
+
+    .officeheading{
+      padding-top: 10px;
+      display: flex;
+      margin-left: 200px;
+      text-align: center;
+
+      
+    }
+    .officeheading b{
+      padding-left: 90px;
+    }
+    .officedate{
+      padding-top: 10px;
+      display: flex;
+      margin-left: 200px;
+      text-align: center;
+
+      
+    }
+    .officedate p{
+      padding-left: 140px;
+      color: gray;
+    }
+    .officecontent{
+      padding-top: 70px;
+      display: flex;
+      margin-left: 400px;
+      
+    }
+
+    .officecontent{
+      padding-top: 10px;
+      display: flex;
+      margin-left: 290px;
+      margin-right: 160px;
+      
+    }
+    .officecontent p{
+      padding-right: 10px;
+      margin-right: 100px;
+    }
+    .blog .iconbutton {
+      padding:10px;
+      margin-left: 320px;
+      
+    }
+    .blog .iconbutton button{
+      padding-left: 30px;
+      padding-right: 30px;
+    background-color:darkcyan
+    }
+    .blog .iconbutton button:hover{
+      opacity:0.7;
+    }
+
+  
+
+    .map{
+      text-align: left;
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+    .combine .heading{
+      margin-top: 20px;
+    }
+    .combine{
+      display:flex;
+      background-color:antiquewhite;
+      margin-top: 100px;
+      margin-left: 400px;
+      
+      width: 760px;
+      height:500px
+      
+    }
+.combine .form{
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.combine .form input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  resize: vertical;
+}
+
+.combine .form input[type=submit] {
+  background-color:darksalmon;
+  padding-left: 30px;
+  padding-right: 50px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-right: 60px;
+  
+}
+
+.combine .form input[type=submit]:hover {
+  opacity: 0.6;
+}
+h2{
+  font-size:48px;
+  font-weight: 900;
+
+  text-shadow: 2px 2px rgb(212, 123, 123);
+}
+
+
+.footer{
+  margin-left: 570px;
+  display: flex;
+  margin-top: 100px;
+}
+.description{
+  margin-left: 0px;
+  text-align: center;
+  
+}
